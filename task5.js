@@ -25,10 +25,12 @@ const func4 = (str1, str2)=>{
 }
 console.log(func4("hello"," world"));
 
+
 const func5 = (num5, num6)=>{
     return num5 + num6;
 }
 console.log(func5(4,7));
+
 
 const ch = 'r';
 const func6 = (str1) =>{
@@ -39,11 +41,13 @@ const func6 = (str1) =>{
 }
 console.log(func6("aishi"));
 
+
 const func7 =(num6,num7=5)=>{
     return num6*num7;
 }
 console.log(func7(3,7));
 console.log(func7(3));
+
 
 const func8 = (name, age= 18)=>{
     return `Hi ${name} !. Welcome to ${age}+ club. `
